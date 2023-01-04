@@ -6,7 +6,7 @@ from fpdf import FPDF
 
 def Recipt_calculate_gen():
 
-    # Code to taking user input and showing of Sum of Calulation
+    # Code to take user input and show the Sum of user inputs
     sum_price = 0
     user_list = []
     print("\n\t\t\t\t\tWelcome to Hussain Store")
@@ -24,7 +24,8 @@ def Recipt_calculate_gen():
             print(f"\nYour total bill untill is : {sum_price}.RS")
             break
 
-    # Code to generate the Recipt of bill is :
+    
+    # Code to generate the Recipt of bill in Command line :
 
     print('\nAnd Recipt of bill is :')
     product_list = []
@@ -34,12 +35,13 @@ def Recipt_calculate_gen():
         product_list.append(f"{index}. List you Enter is :  {price}\n")
     print(f"Sum of Bill is : {sum(user_list)}")
 
-    # Format of generating Script of bill ---
+
+    # Creating format of generating Script of bill ---
 
     store_name = 'Welcome to Hussain Store\n'
     bill_sum = f'Sum of Bill is : {sum(user_list)}'
 
-    # Code to generate Recipt of Bill in Text form ---
+    # Code to generate Recipt of Bill in PDF form ---
 
     print("\nWould you like to see your Recipt in PDF file ?")
     user_ask = input('yes / no \t').lower()
@@ -65,7 +67,7 @@ def Recipt_calculate_gen():
         pdf.output(Buywer_name+'.pdf')
 
 
-# Exrcution of code by main condition ---
+# Exrcution of code under main condition ---
 
 if __name__ == '__main__':
     Recipt_calculate_gen()
