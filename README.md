@@ -1,5 +1,5 @@
 
-# Program to calculate Products and Generate a Receipt PDF.
+# Calculate Products and Generate a Receipt PDF.
 
 A Python project which calculate the Products entered by user and Create a Receipt of User Products which includes all Products and their prices entered by user and give total Sum of such Products.
 
