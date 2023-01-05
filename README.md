@@ -4,10 +4,6 @@
 A Python project which calculate the Products entered by user and Create a Receipt of User Products which includes all Products and their prices entered by user and give total Sum of such Products.
 
 
-
-
-___
-
 ![App Screenshot](https://www.klippa.com/wp-content/uploads/2022/07/Travel_Expenses_Title.png)
 
 
