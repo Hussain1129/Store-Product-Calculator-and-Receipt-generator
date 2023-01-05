@@ -128,15 +128,23 @@ Here is the code which will create a PDF by taking all product_list and their pr
         pdf.add_page()
 
         # Set the font and size
-        pdf.set_font("Arial", size=18)
+        pdf.set_font("Arial", size=20)
 
         # Write the string to the PDF
-
-        pdf.cell(200, 10, txt=store_name, ln=1)
+        pdf.cell(200, 10, txt='', ln=4)
+        
+        pdf.cell(200, 10, txt=store_name, align="C", ln=1)
+        
+        pdf.cell(200, 10, txt='', ln=1)
+        
+        pdf.cell(200, 10, txt=('Dear '+Buywer_name) + ' ! \tyour bill is :', ln=1)
+        
+        pdf.cell(200, 10, txt='', ln=1)        # Insert a Blank line
 
         for line in product_list:
             pdf.cell(200, 10, txt=line, ln=1)
 
+        pdf.cell(200, 10, txt='', ln=1)
         pdf.cell(200, 10, txt=bill_sum, ln=1)
 
         # Save the PDF to a file
