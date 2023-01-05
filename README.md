@@ -6,7 +6,7 @@ A Python project which calculate the Products entered by user and Create a Recei
 
 
 
-
+___
 ![App Screenshot](https://www.klippa.com/wp-content/uploads/2022/07/Travel_Expenses_Title.png)
 
 
