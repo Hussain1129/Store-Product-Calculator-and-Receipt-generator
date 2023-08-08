@@ -196,7 +196,7 @@ Open command prompt and type this :
 Insteed of this Run Create store Calculator & Receipt Generator.exe file directly.
 
 ## 🛠 Skills
-Javascript, HTML, CSS, python, Django, Docker, Numpy, Pandas, Matplotlib, seaborns...
+You just need to have a good understanding of ```python```
 
 
 ## 🚀 About Me
